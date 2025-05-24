@@ -23,6 +23,22 @@ An interactive chatbot app built with Python and Gradio that allows seamless swi
 
 ---
 
+## Chat Interface Layout
+
+![image](https://github.com/user-attachments/assets/bcb5a8f3-18fc-4504-8667-b862acd62bb7)
+
+---
+
+## ✅ Summary Flow (End-to-End):
+
+- User opens the app → picks a model → enters message.
+- chat_interface() sends it to chat_with_model().
+- chat_with_model() uses correct API client and updates chat_histories.
+- The response is returned to Gradio and shown in the textbox.
+- History ensures multi-turn continuity per model.
+
+---
+
 ## 🧰 Tech Stack
 
 - Python 3.x
@@ -59,12 +75,6 @@ An interactive chatbot app built with Python and Gradio that allows seamless swi
 5. **Run the app**  
    ```bash
    python multi_model_chatbot_app.py
-
---
-
-## Chat Interface Layout
-
-![image](https://github.com/user-attachments/assets/bcb5a8f3-18fc-4504-8667-b862acd62bb7)
 
 --
 
