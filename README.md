@@ -62,6 +62,12 @@ An interactive chatbot app built with Python and Gradio that allows seamless swi
 
 --
 
+## Chat Interface Layout
+
+![image](https://github.com/user-attachments/assets/bcb5a8f3-18fc-4504-8667-b862acd62bb7)
+
+--
+
 ## 📁 Project Structure
    ```bash
   multi-model-chatbot/
